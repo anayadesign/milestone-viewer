@@ -1,0 +1,19 @@
+{
+  "name": "milestone-viewer",
+  "version": "1.0.0",
+  "description": "Created to test out the GitHub API.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/anayadesign/milestone-viewer.git"
+  },
+  "author": "David Anaya",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/anayadesign/milestone-viewer/issues"
+  },
+  "homepage": "https://github.com/anayadesign/milestone-viewer#readme"
+}
