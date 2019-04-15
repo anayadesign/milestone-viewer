@@ -2,9 +2,10 @@
   "name": "milestone-viewer",
   "version": "1.0.0",
   "description": "Created to test out the GitHub API.",
-  "main": "index.js",
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build": "webpack"
   },
   "repository": {
     "type": "git",
@@ -15,5 +16,19 @@
   "bugs": {
     "url": "https://github.com/anayadesign/milestone-viewer/issues"
   },
-  "homepage": "https://github.com/anayadesign/milestone-viewer#readme"
+  "homepage": "https://github.com/anayadesign/milestone-viewer#readme",
+  "dependencies": {
+    "dotenv-webpack": "^1.7.0",
+    "lodash": "^4.17.11",
+    "primer-core": "^7.0.0"
+  },
+  "devDependencies": {
+    "css-loader": "^2.1.1",
+    "mini-css-extract-plugin": "^0.5.0",
+    "node-sass": "^4.11.0",
+    "sass-loader": "^7.1.0",
+    "style-loader": "^0.23.1",
+    "webpack": "^4.30.0",
+    "webpack-cli": "^3.3.0"
+  }
 }
